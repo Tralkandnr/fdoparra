@@ -1,0 +1,29 @@
+.App-header {
+  background-color: #282c34;
+  display: flex;
+
+ 
+  color: white;
+}
+
+.nav
+{
+  width: 100%;
+  padding: 0px;
+}
+
+.nav li 
+{
+  display: inline;
+  vertical-align: middle; 
+}
+.nav li a
+{
+  padding: 15px;
+  
+}
+.nav li a img
+{
+  margin: auto;
+
+}
