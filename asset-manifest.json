@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fdoparra/static/css/main.5ac16b59.chunk.css",
+    "main.js": "/fdoparra/static/js/main.0234b15d.chunk.js",
+    "main.js.map": "/fdoparra/static/js/main.0234b15d.chunk.js.map",
+    "runtime-main.js": "/fdoparra/static/js/runtime-main.d97008f6.js",
+    "runtime-main.js.map": "/fdoparra/static/js/runtime-main.d97008f6.js.map",
+    "static/js/2.d91887eb.chunk.js": "/fdoparra/static/js/2.d91887eb.chunk.js",
+    "static/js/2.d91887eb.chunk.js.map": "/fdoparra/static/js/2.d91887eb.chunk.js.map",
+    "static/js/3.ebff5503.chunk.js": "/fdoparra/static/js/3.ebff5503.chunk.js",
+    "static/js/3.ebff5503.chunk.js.map": "/fdoparra/static/js/3.ebff5503.chunk.js.map",
+    "index.html": "/fdoparra/index.html",
+    "static/css/main.5ac16b59.chunk.css.map": "/fdoparra/static/css/main.5ac16b59.chunk.css.map",
+    "static/js/2.d91887eb.chunk.js.LICENSE.txt": "/fdoparra/static/js/2.d91887eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d97008f6.js",
+    "static/js/2.d91887eb.chunk.js",
+    "static/css/main.5ac16b59.chunk.css",
+    "static/js/main.0234b15d.chunk.js"
+  ]
+}
