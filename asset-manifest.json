@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fdoparra/static/css/main.04903626.chunk.css",
-    "main.js": "/fdoparra/static/js/main.893beed0.chunk.js",
-    "main.js.map": "/fdoparra/static/js/main.893beed0.chunk.js.map",
+    "main.css": "/fdoparra/static/css/main.2246378e.chunk.css",
+    "main.js": "/fdoparra/static/js/main.0e0e2b87.chunk.js",
+    "main.js.map": "/fdoparra/static/js/main.0e0e2b87.chunk.js.map",
     "runtime-main.js": "/fdoparra/static/js/runtime-main.c875ce5d.js",
     "runtime-main.js.map": "/fdoparra/static/js/runtime-main.c875ce5d.js.map",
     "static/js/2.99e50aa7.chunk.js": "/fdoparra/static/js/2.99e50aa7.chunk.js",
     "static/js/2.99e50aa7.chunk.js.map": "/fdoparra/static/js/2.99e50aa7.chunk.js.map",
     "index.html": "/fdoparra/index.html",
-    "static/css/main.04903626.chunk.css.map": "/fdoparra/static/css/main.04903626.chunk.css.map",
+    "static/css/main.2246378e.chunk.css.map": "/fdoparra/static/css/main.2246378e.chunk.css.map",
     "static/js/2.99e50aa7.chunk.js.LICENSE.txt": "/fdoparra/static/js/2.99e50aa7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c875ce5d.js",
     "static/js/2.99e50aa7.chunk.js",
-    "static/css/main.04903626.chunk.css",
-    "static/js/main.893beed0.chunk.js"
+    "static/css/main.2246378e.chunk.css",
+    "static/js/main.0e0e2b87.chunk.js"
   ]
 }
