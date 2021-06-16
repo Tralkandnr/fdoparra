@@ -5,8 +5,9 @@
     align-items: center; 
     font-size: 1.2em;
 }
+
 .NavBarItems .logo{
-    width: 100%;
+    width: 100px;
     text-align: center;
     position: relative;
     top:40px;
@@ -27,14 +28,14 @@
 }
 .NavBarItems .menu1{
     width: 100%;
-    text-align: start;
-    margin-left: 100px;
+    text-align: end;
+    margin-left: 0px;
 }
 
 .NavBarItems .menu2{
     width: 100%;
-    text-align: end;
-    margin-right: 100px;
+    text-align: start;
+    margin-right: 0px;
 }
 .NavBarItems ul li{
     text-decoration: none;
@@ -58,5 +59,9 @@
 .nav-links{
     text-decoration: none;
     padding: 15px;
+    color: white;
+}
+.fab 
+{
     color: white;
 }
