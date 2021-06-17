@@ -6,13 +6,18 @@ import logo from '../../assets/img/logo.png';
 import {Iconos} from './Iconos';
 
 class Navbar extends Component {
-  state= {clicked: false}
+  state = {clicked: false}
+  hacerClick = () => {
+    this.setState({clicked: !this.state.clicked})
+  }
 
   render() {
     return (
       <nav className="NavBarItems">
-        <div className="menu-icon" onClick={this.handleClick}></div>
-            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+        <div className="menu-icon" onClick={this.hacerClick}>
+        <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+        </div>
+            
          <ul className="menu1">
           {MenuItems2.map((item, index) => {
             return (

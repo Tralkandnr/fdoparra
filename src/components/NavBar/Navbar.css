@@ -81,3 +81,34 @@
     color: white;
 
 }
+.fas .fa-bars
+{
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .NavBarItems{font-size:1.0em;}
+}
+@media (max-width:1084px) {
+    .nav-links{
+        padding: 5px;
+    }
+    
+}
+@media (max-width:964px) {
+    .nav-links{
+      display: none;
+      
+    }
+    
+}
+@media (max-width:720px){
+    .NavBarItems .logo{
+        position: unset;
+        
+    }
+    .NavBarItems .logo img{
+        width: 75px;
+        height: 75px;
+    }
+}
