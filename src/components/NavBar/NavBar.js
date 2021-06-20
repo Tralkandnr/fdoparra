@@ -6,6 +6,8 @@ import logo from '../../assets/img/logo.png';
 import {Iconos} from './Iconos';
 import { ContenidoToggle } from './ContenigoToggle.js';
 
+
+
 class Navbar extends Component {
   state = {clicked: false}
   hacerClick = () => {
