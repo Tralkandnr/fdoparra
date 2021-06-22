@@ -6,6 +6,18 @@ import logo from '../../assets/img/logo.png';
 import {Iconos} from './Iconos';
 import { ContenidoToggle } from './ContenigoToggle.js';
 
+const styles = {
+  navBarItems:{
+    background:'#2c1708',
+    height: '80px',
+    display: 'flex',
+    alignItems: 'center', 
+    fontSize: '1.2em',
+    position: 'fixed',
+    width:'100%'
+  }
+  
+}
 
 
 class Navbar extends Component {
@@ -15,7 +27,7 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="NavBarItems">
+      <nav className="NavBarItems" style={styles.navBarItems}>
         <div className="menu-icon" onClick={this.hacerClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>

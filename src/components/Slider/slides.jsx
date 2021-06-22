@@ -18,7 +18,6 @@ export default class Slide extends Component{
             <div style={styles.contenedorSlider}>
                 <img src={slide} style={styles.slider}></img>
             </div>
-            
         );
     }
 }
