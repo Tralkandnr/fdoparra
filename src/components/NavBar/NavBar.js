@@ -6,15 +6,23 @@ import logo from '../../assets/img/logo.png';
 import {Iconos} from './Iconos';
 import { ContenidoToggle } from './ContenigoToggle.js';
 
+
+
 const styles = {
   navBarItems:{
-    background:'#2c1708',
+    background:'rgba(48, 12, 0, 0.75)',
     height: '80px',
     display: 'flex',
     alignItems: 'center', 
     fontSize: '1.2em',
     position: 'fixed',
-    width:'100%'
+    width:'100%',
+    zIndex:'1000'
+  },
+  socialIcons:{
+    display:'flex',
+    textAlign:'end',
+    marginRight:'15px'
   }
   
 }
@@ -65,7 +73,7 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        <ul className="social-icons">
+        <ul style={styles.socialIcons}>
         {Iconos.map((item, index)=>{
               return (
                 <li key={index}>

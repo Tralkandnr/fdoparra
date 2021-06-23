@@ -1,0 +1,7 @@
+.slide{
+    -webkit-filter: grayscale(100%);
+}
+.slide:hover{
+    -webkit-filter:unset;
+    transition: 0.6s;
+}
