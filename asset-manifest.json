@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/fdoparra/static/css/main.53377afb.chunk.css",
-    "main.js": "/fdoparra/static/js/main.92f87c00.chunk.js",
-    "main.js.map": "/fdoparra/static/js/main.92f87c00.chunk.js.map",
+    "main.css": "/fdoparra/static/css/main.efe69ae3.chunk.css",
+    "main.js": "/fdoparra/static/js/main.7df34441.chunk.js",
+    "main.js.map": "/fdoparra/static/js/main.7df34441.chunk.js.map",
     "runtime-main.js": "/fdoparra/static/js/runtime-main.c875ce5d.js",
     "runtime-main.js.map": "/fdoparra/static/js/runtime-main.c875ce5d.js.map",
     "static/js/2.4cdcffb8.chunk.js": "/fdoparra/static/js/2.4cdcffb8.chunk.js",
     "static/js/2.4cdcffb8.chunk.js.map": "/fdoparra/static/js/2.4cdcffb8.chunk.js.map",
     "index.html": "/fdoparra/index.html",
-    "static/css/main.53377afb.chunk.css.map": "/fdoparra/static/css/main.53377afb.chunk.css.map",
+    "static/css/main.efe69ae3.chunk.css.map": "/fdoparra/static/css/main.efe69ae3.chunk.css.map",
     "static/js/2.4cdcffb8.chunk.js.LICENSE.txt": "/fdoparra/static/js/2.4cdcffb8.chunk.js.LICENSE.txt",
     "static/media/slider.aae501aa.jpeg": "/fdoparra/static/media/slider.aae501aa.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.c875ce5d.js",
     "static/js/2.4cdcffb8.chunk.js",
-    "static/css/main.53377afb.chunk.css",
-    "static/js/main.92f87c00.chunk.js"
+    "static/css/main.efe69ae3.chunk.css",
+    "static/js/main.7df34441.chunk.js"
   ]
 }
