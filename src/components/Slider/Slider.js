@@ -1,5 +1,5 @@
 import React,  { Component } from 'react';
-import Slide from './Slides';
+import Slide from './slides';
 
 
 class Slider extends Component{

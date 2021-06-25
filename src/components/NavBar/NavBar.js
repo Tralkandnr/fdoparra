@@ -3,7 +3,6 @@ import  { MenuItems } from "./MenuItems.js";
 import { MenuItems2 } from './MenuItems2.js';
 import './Navbar.css';
 import logo from '../../assets/img/logo.png';
-import {Iconos} from './Iconos';
 import { ContenidoToggle } from './ContenigoToggle.js';
 
 
@@ -17,12 +16,8 @@ const styles = {
     fontSize: '1.2em',
     position: 'fixed',
     width:'100%',
-    zIndex:'1000'
-  },
-  socialIcons:{
-    display:'flex',
-    textAlign:'end',
-    marginRight:'15px'
+    zIndex:'1000',
+    borderRadius:'0px 0px 18px 18px'
   }
   
 }
@@ -73,14 +68,6 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        <ul style={styles.socialIcons}>
-        {Iconos.map((item, index)=>{
-              return (
-                <li key={index}>
-                  <i class={item.cName} href={item.url}></i>
-                </li>
-              );
-            })}</ul>
       </nav>
     );
   }
