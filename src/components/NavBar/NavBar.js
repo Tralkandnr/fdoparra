@@ -5,11 +5,9 @@ import './Navbar.css';
 import logo from '../../assets/img/logo.png';
 import { ContenidoToggle } from './ContenigoToggle.js';
 
-
-
 const styles = {
   navBarItems:{
-    background:'rgba(48, 12, 0, 0.75)',
+    background:'rgba(48, 12, 0, 0.90)',
     height: '80px',
     display: 'flex',
     alignItems: 'center', 
@@ -17,12 +15,31 @@ const styles = {
     position: 'fixed',
     width:'100%',
     zIndex:'1000',
-    borderRadius:'0px 0px 18px 18px'
+    borderRadius:'0px 0px 18px 18px',
+    
+  },
+  toggleDesplegado:{
+    position: 'absolute',
+    top:'85px',
+    display: 'inline',
+    zIndex: '1000',
+    backgroundColor: 'rgba(48, 12, 0, 0.90)',
+    paddingLeft: '10px',
+    paddingRight: '50px',
+    paddingBottom:'50px',
+    borderRadius:'18px',
+    boxShadow:' 5px 5px 5px rgba(0,0,0, 0.75)'
+    
+  },
+  toggleOculto:{
+    display:'none'
+  },
+  toggleLi:{
+    display:'block',
+    listStyleType:'none'
   }
   
 }
-
-
 class Navbar extends Component {
   state = {clicked: false}
   hacerClick = () => {
@@ -34,11 +51,11 @@ class Navbar extends Component {
         <div className="menu-icon" onClick={this.hacerClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
-        <div className={this.state.clicked ? 'toggle-desplegado':'toggle-oculto'}>
+        <div style={this.state.clicked ? styles.toggleDesplegado:styles.toggleOculto}>
           <ul className="toggle-menu">
             {ContenidoToggle.map((item, index) => {
             return(
-              <li key={index} className="toggle-li">
+              <li key={index} style={styles.toggleLi}>
                 <a className={item.cName} href={item.url}>{item.title}</a>
               </li>
             );

@@ -12,8 +12,9 @@ const styles={
         right:'-15px',
         padding:'20px',
         listStyle:'none',
-        background:'rgba(48, 12, 0, 0.75)',
-        borderRadius:'18px 0px 0px 18px'
+        background:'rgba(48, 12, 0, 0.90)',
+        borderRadius:'18px 0px 0px 18px',
+        boxShadow:' 5px 5px 5px rgba(0,0,0, 0.75)'
       }
 }
 
