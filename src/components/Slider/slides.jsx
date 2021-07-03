@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import slide from '../../assets/img/slider.jpeg';
-import './Slider.css'
-import '../H1'
+import './Slider.css';
 import H1 from '../H1';
-
+import P from '../P';
 const styles = {
     slider:{
         objectFit:'cover',
@@ -20,25 +19,46 @@ const styles = {
         backgroundColor:'rgba(10,10,10,0.10)',
         padding:'50px',
         color:'rgba(220,220,220)',
-        borderRadius:'18px'
+        borderRadius:'18px',
+        textAlign:'center'
     },
+    content:{
+        display:'none',
+    },
+    contentDisplayed:{
+        display:'block',
+    },
+    title:{
+        display:'none',
+    },
+    titleDisplay:{
+        display:'block'
+    },
+    icono:{
+        fontSize:'30px',
+        marginTop:'55px'
+    }
     
 }
-
-
-
 export default class Slide extends Component{
-    state = {onmouseout: false}
-    pasarMouse = () => {
-    this.setState({onmouseenter:!this.state.onmouseenter})}
-    
 
+    state = {onclick: false}
+    pasarMouse = () => {
+        this.setState({onclick:!this.state.onclick})
+    }
     render(){
         return(
             <div style={styles.contenedorSlider}>
                 <div style={styles.titleSlide}>
-                <h1 className='titleSlide' onMouseEnter={this.pasarMouse}>Fernando Parra, musico Chileno</h1>
-                <i className={this.state.onmouseenter ? 'fab fa-readme':'fas fa-chevron-circle-down'}></i>
+                    <div style={this.state.onclick ? styles.title:styles.titleDisplay}>
+                    <H1>Fernando Parra, musico Chileno</H1>
+                    </div>
+                    <div style={this.state.onclick ? styles.contentDisplayed:styles.content} >
+                        <H1>Mi vida y la musica</H1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perspiciatis ab repellat nesciunt officiis inventore sed esse dolor explicabo fuga at sapiente, omnis natus similique maxime aut minus consequuntur doloremque.</P>
+                    </div>
+                    <i style={styles.icono} onClick={this.pasarMouse} className={this.state.onclick ? 'fas fa-times-circle':'fas fa-chevron-circle-down'}></i>
+                    
                 </div>
                 <img src={slide} style={styles.slider}></img>
             </div>
